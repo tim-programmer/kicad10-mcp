@@ -1,0 +1,39 @@
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Testing, linting & typechecking caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environment & local config files
+.env
+.env.*
+!.env.example
+
+# KiCad temporary & backup files
+*.bak
+*-backups/
+fp-info-cache
+*.lck
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
