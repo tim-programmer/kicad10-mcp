@@ -77,7 +77,8 @@ Follow this review workflow using the available KiCad MCP tools:
         variant: str = "",
     ) -> str:
         variant_clause = (
-            f"Pass `variants='{variant}'` to every export tool."
+            f"Pass `variants='{variant}'` to every export tool that accepts it "
+            "(`export_drill` does not; drill files are variant-independent)."
             if variant
             else "Inspect `get_project_variants` and confirm whether a specific variant or the default variant should be released."
         )
